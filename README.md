@@ -1,26 +1,25 @@
-# Aura — Local-First Expense Tracker
+# Aura — Minimalist Expense Tracking
 
-Aura is a clean, modern personal finance dashboard designed for private, local use. It combines a high-end UI with powerful analytics to help you track your spending directly from your development environment.
+Aura is a clean, modern personal finance dashboard built with **Next.js 15**, **Tailwind CSS**, **Clerk**, and **Supabase**. It helps users track their spending with monthly resets, historical analytics, and beautiful visual charts.
 
 ## ✨ Features
-- **Monthly Reset:** Automatically starts a fresh spending total on the 1st of every month.
-- **Financial Analytics:** Track your "Highest Spend Month" and "Monthly Average" across your entire history.
-- **Visual Insights:** Category breakdown via an interactive Pie Chart.
-- **Rupee Support:** Fully formatted for Indian Currency (₹).
-- **Secure Local Access:** Authentication powered by Clerk and data persistence via Supabase.
+- **Monthly Reset:** View current month spending vs. historical data.
+- **Financial Insights:** Track Highest Month, Monthly Average, and Category Breakdown.
+- **Visual Analytics:** Interactive Pie Charts powered by Recharts.
+- **Secure Auth:** User accounts and social login via Clerk.
+- **Real-time Database:** Powered by Supabase for instant data persistence.
+- **Rupee Support:** Optimized for Indian currency (₹) formatting.
 
 ## 🛠️ Tech Stack
-- **Framework:** Next.js 15
+- **Framework:** Next.js 15 (App Router)
 - **Styling:** Tailwind CSS
-- **Authentication:** Clerk (Social & Email Login)
-- **Database:** Supabase (Cloud Database for local access)
-- **Charts:** Recharts
+- **Authentication:** Clerk
+- **Database:** Supabase
 - **Icons:** Lucide React
+- **Charts:** Recharts
 
-## 🚀 How to Run Locally
-
-### 1. Clone & Install
-```bash
-git clone https://github.com/[your-username]/aura-expense-tracker.git
-cd aura-expense-tracker
-npm install --legacy-peer-deps
+## 🚀 Setup Instructions
+1. Clone the repository.
+2. Install dependencies: `npm install --legacy-peer-deps`.
+3. Set up your `.env.local` file with Clerk and Supabase keys.
+4. Run the development server: `npm run dev`.
