@@ -11,7 +11,7 @@ Aura is a clean, modern personal finance dashboard built with **Next.js 15**, **
 - **Rupee Support:** Optimized for Indian currency (₹) formatting.
 
 ## 🛠️ Tech Stack
-- **Framework:** Next.js 15 (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **Styling:** Tailwind CSS
 - **Authentication:** Clerk
 - **Database:** Supabase
